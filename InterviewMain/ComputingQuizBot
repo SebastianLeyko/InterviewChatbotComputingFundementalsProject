@@ -1,6 +1,17 @@
-We are working on a computing fundamentals quiz bot
+#**************************************************************************
+#We are working on a computing fundamentals quiz bot
+#This chatbot will have the functionality to have stored interview questions; true/false, multiple choice, and FRQ
+#This bot will ask the user questions and give back a score determined on the number of correct and false answers
+#This bot will also record the amount of time needed to answer each question
 import json
 import random
 import time
 from datetime import datetime
+#**************************************************************************
+# Stored Variables:
 
+#**************************************************************************
+
+#**************************************************************************
+print("-----------------Hello, welcome to our EECE question review game!-----------------")
+print("We will ask you 10 questions then record your answers and the time it took")

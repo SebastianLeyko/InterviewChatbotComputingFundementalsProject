@@ -1,0 +1,42 @@
+{
+  "tf": {
+    "criteria": {
+      "accuracy": {
+        "description": "Whether the chosen answer matches the correct boolean value.",
+        "max_score": 1
+      }
+    },
+    "feedback": {
+      "1": "Great job — your understanding of the concept is correct.",
+      "0": "Incorrect — review this topic again."
+    }
+  },
+
+  "mcq": {
+    "criteria": {
+      "accuracy": {
+        "description": "Correctness of the selected option.",
+        "max_score": 1
+      }
+    },
+    "feedback": {
+      "1": "Good — you chose the correct option.",
+      "0": "Incorrect — review why the other answers were wrong."
+    }
+  },
+
+  "frq": {
+    "criteria": {
+      "keywords": {
+        "description": "How many key terms from the rubric appear in the response.",
+        "max_score": 1
+      }
+    },
+    "feedback": {
+      "high": "Excellent — you mentioned all key terms!",
+      "medium": "Good — some key ideas missing.",
+      "low": "Needs improvement — review the key concepts."
+    }
+  }
+}
+

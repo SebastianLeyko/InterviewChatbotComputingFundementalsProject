@@ -12,6 +12,7 @@ from datetime import datetime
 
 #**************************************************************************
 def Question_type(list_questions[]):
+#starts while timer when question is asked
 #if multiple choice return multiple
 #if true/false return q5050
 #if FRQ return FRQ

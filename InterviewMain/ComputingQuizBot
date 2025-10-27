@@ -11,7 +11,17 @@ from datetime import datetime
 # Stored Variables:
 
 #**************************************************************************
-
+def Question_type(list_questions[]):
+#if multiple choice return multiple
+#if true/false return q5050
+#if FRQ return FRQ
+def multiple_choice(multiple)
+# checks what answer was selected and prints out stored selected answer
+def true_false(q5050)
+# checks if true or false, prints correct answer
+def Free_Response(FRQ)
+# checks keyword frequency, if meets requirement then says correct
+# if not correct prints out expained answer
 #**************************************************************************
 print("-----------------Hello, welcome to our EECE question review game!-----------------")
 print("We will ask you 10 questions then record your answers and the time it took")

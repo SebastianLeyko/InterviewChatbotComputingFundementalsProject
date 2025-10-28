@@ -27,7 +27,25 @@ try:
   except json.JSONDecodeError
   print("Could not decode file")
   quit()
+quiz_questions = random.sample(question_bank, 10)
+results = []
 #**************************************************************************
+#To start
+for index, q in enumerate(quiz_questions,1):
+print(f"question {index}: {q[question]}")
+start=time.time()
+if q[type] == "tf":
+answer = input("Is this true or false").strip.lower
+correct = (answer.startswith("t") and q[answer] is True) or (answer.startswith("f") and q["answer"] is False)
+if q[type] == "mcq":
+elif q["type"] == "mcq":
+        for i, option in enumerate(q["options"], 1):
+            print(f"{i}. {option}")
+        choice = input("Enter a letter: ").strip()
+        correct = choice == q["answer"]
+elif q["type"] == "frq":
+answer = input("Please give a short reply answering this question: ").lower
+keywords = q[keywords]
 def Question_type(list_questions[]):
 #starts while timer when question is asked
 #if multiple choice return multiple

@@ -9,7 +9,14 @@ import time
 from datetime import datetime
 #**************************************************************************
 # Stored Variables:
-
+try:
+  with open('question_bank.json', 'r') as file:
+  questions = json.load(file)
+  except FileNotFoundError:
+  print("Error, file not found")
+  quit()
+  except json.JSONDecodeError
+  print("Could not decode file")
 #**************************************************************************
 def Question_type(list_questions[]):
 #starts while timer when question is asked

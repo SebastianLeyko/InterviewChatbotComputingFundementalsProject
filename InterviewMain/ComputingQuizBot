@@ -17,6 +17,16 @@ try:
   quit()
   except json.JSONDecodeError
   print("Could not decode file")
+  quit()
+try: 
+  with open('rubric.json', 'r') as file:
+  rubric = json.load(file
+  except FileNotFoundError:
+  print("Error, file not found")
+  quit()
+  except json.JSONDecodeError
+  print("Could not decode file")
+  quit()
 #**************************************************************************
 def Question_type(list_questions[]):
 #starts while timer when question is asked

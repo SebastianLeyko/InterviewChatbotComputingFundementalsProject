@@ -1,0 +1,21 @@
+{
+  "tf": {
+    "feedback": {
+      "1": "Correct! ✔️",
+      "0": "Not quite. Review this concept."
+    }
+  },
+  "mcq": {
+    "feedback": {
+      "1": "Nice job! ✅",
+      "0": "Incorrect. Check your understanding and try again."
+    }
+  },
+  "frq": {
+    "feedback": {
+      "high": "Strong answer with key ideas covered.",
+      "medium": "Partially correct—some key points are missing.",
+      "low": "Needs more detail and correct terminology."
+    }
+  }
+}

@@ -1,0 +1,288 @@
+[
+  {
+    "id": 1.01,
+    "type": "tf",
+    "question": "Python is case-sensitive.",
+    "answer": true
+  },
+  {
+    "id": 1.02,
+    "type": "tf",
+    "question": "In Python, variables must be declared by type.",
+    "answer": false
+  },
+  {
+    "id": 1.03,
+    "type": "tf",
+    "question": "Lists in Python can contain elements of different data types.",
+    "answer": true
+  },
+  {
+    "id": 1.04,
+    "type": "tf",
+    "question": "Strings are composed of only letters and symbols.",
+    "answer": false
+  },
+  {
+    "id": 1.05,
+    "type": "tf",
+    "question": "Strings are immutable.",
+    "answer": true
+  },
+  {
+    "id": 1.06,
+    "type": "tf",
+    "question": "The '==' operator checks whether two variables refer to the same object in memory.",
+    "answer": false
+  },
+  {
+    "id": 1.07,
+    "type": "tf",
+    "question": "You can nest lists inside one another.",
+    "answer": true
+  },
+  {
+    "id": 1.08,
+    "type": "tf",
+    "question": "The 'for' loop in Python can be used to iterate through characters in a string.",
+    "answer": true
+  },
+  {
+    "id": 1.09,
+    "type": "tf",
+    "question": "'=' has the same function as '=='.",
+    "answer": false
+  },
+  {
+    "id": 1.10,
+    "type": "tf",
+    "question": "Lists and tuples both support the append() function",
+    "answer": false
+  },
+  {
+    "id": 1.11,
+    "type": "tf",
+    "question": "The 'elif' keyword can only be used once in an if statement",
+    "answer": false
+  },
+  {
+    "id": 1.12,
+    "type": "tf",
+    "question": "Dictionaries in Python store data as key-value pairs.",
+    "answer": true
+  },
+  {
+    "id": 1.13,
+    "type": "tf",
+    "question": "A Python dictionary key must always be a string.",
+    "answer": false
+  },
+  {
+    "id": 1.14,
+    "type": "tf",
+    "question": "Indentation defines code blocks in Python.",
+    "answer": true
+  },
+  {
+    "id": 1.15,
+    "type": "tf",
+    "question": "The input() function always returns user input as a string.",
+    "answer": true
+  },
+  {
+    "id": 2.1,
+    "type": "mcq",
+    "question": "Which data type is mutable in Python?",
+    "options": ["A)Tuple", "B)List", "C)String", "D)Integer"],
+    "answer": "B"
+  },
+  {
+    "id": 2.2,
+    "type": "mcq",
+    "question": "What is the output of the expression 3 * 'ab'?",
+    "options": ["A) 'ab3'", "B) 'ababab'", "C) Error", "D) 'ab ab ab'"],
+    "answer": "B"
+  },
+  {
+    "id": 2.3,
+    "type": "mcq",
+    "question": "Which of the following is a valid Python variable name?",
+    "options": ["A) 2nd_place", "B) my-variable", "C) myVariable", "D) class"],
+    "answer": "C"
+  },
+  {
+    "id": 2.4,
+    "type": "mcq",
+    "question": "Which function returns the number of elements in a list?",
+    "options": ["A)size()", "B)count()", "C)len()", "D)length()"],
+    "answer": "C"
+  },
+  {
+    "id": 2.5,
+    "type": "mcq",
+    "question": "What is the index of the first element in a Python list?",
+    "options": ["A)0", "B)1", "C)-1", "D)None"],
+    "answer": "A"
+  },
+  {
+    "id": 2.6,
+    "type": "mcq",
+    "question": "What is the output of len('Python')?",
+    "options": ["A)5", "B)6", "C)7", "D)Error"],
+    "answer": "B"
+  },
+  {
+    "id": 2.7,
+    "type": "mcq",
+    "question": "Which statement correctly checks if a key exists in a dictionary?",
+    "options": ["A)key in dict", "B)key of dict", "C)dict.has(key)", "D)find(key)"],
+    "answer": "A"
+  },
+  {
+    "id": 2.8,
+    "type": "mcq",
+    "question": "Which of the following creates an empty dictionary?",
+    "options": ["A)[]", "B){}", "C)set()", "D)dict{}"],
+    "answer": "B"
+  },
+  {
+    "id": 2.9,
+    "type": "mcq",
+    "question": "Which of the following data types is immutable?",
+    "options": ["A)List", "B)Set", "C)Dictionary", "D)Tuple"],
+    "answer": "D"
+  },
+  {
+    "id": 2.10,
+    "type": "mcq",
+    "question": "What is the output of print(type(3.0))?",
+    "options": ["A)int", "B)float", "C)double", "D)number"],
+    "answer": "B"
+  },
+  {
+    "id": 2.11,
+    "type": "mcq",
+    "question": "What keyword is used to create a function in Python?",
+    "options": ["A)func", "B)function", "C)def", "D)define"],
+    "answer": "C"
+  },
+  {
+    "id": 2.12,
+    "type": "mcq",
+    "question": "What does the append() method do?",
+    "options": ["A)Adds element to end", "B)Adds to start", "C)Removes last item", "D)Reverses list"],
+    "answer": "A"
+  },
+  {
+    "id": 2.13,
+    "type": "mcq",
+    "question": "Which operator is used for exponentiation?",
+    "options": ["A)^", "B)**", "C)pow", "D)//"],
+    "answer": "B"
+  },
+  {
+    "id": 2.14,
+    "type": "mcq",
+    "question": "What is the output of 'Hello'.lower()?",
+    "options": ["A)HELLO", "B)hello", "C)error", "D)none"],
+    "answer": "B"
+  },
+  {
+    "id": 2.15,
+    "type": "mcq",
+    "question": "Which of the following can be used to convert a string into an integer?",
+    "options": ["A)int()", "B)str()", "C)float()", "D)toInt()"],
+    "answer": "A"
+  },
+  {
+    "id": 3.1,
+    "type": "frq",
+    "question": "Explain what a dictionary is used for in Python.",
+    "keywords": ["key", "value", "mapping", "lookup"]
+  },
+  {
+    "id": 3.2,
+    "type": "frq",
+    "question": "Explain the difference between a list and a tuple in Python.",
+    "keywords": ["mutable", "immutable", "list", "tuple"]
+  },
+  {
+    "id": 3.3,
+    "type": "frq",
+    "question": "Which keyword is used to define a function in Python?",
+    "answer": "def"
+  },
+  {
+    "id": 3.4,
+    "type": "frq",
+    "question": "Describe how to add an element to a list.",
+    "keywords": ["append", "end", "list"]
+  },
+  {
+    "id": 3.5,
+    "type": "frq",
+    "question": "What is a variable in Python and how is it created?",
+    "keywords": ["store", "value", "assignment", "name"]
+  },
+  {
+    "id": 3.6,
+    "type": "frq",
+    "question": "How do you write a conditional statement in Python?",
+    "keywords": ["if", "elif", "else", "condition"]
+  },
+  {
+    "id": 3.7,
+    "type": "frq",
+    "question": "Explain the difference between = and == in Python.",
+    "keywords": ["assign", "compare", "equality", "operator"]
+  },
+  {
+    "id": 3.8,
+    "type": "frq",
+    "question": "What does the len() function do?",
+    "keywords": ["length", "count", "elements", "container"]
+  },
+  {
+    "id": 3.9,
+    "type": "frq",
+    "question": "Describe one way to iterate through a list.",
+    "keywords": ["for", "loop", "iterate", "element"]
+  },
+  {
+    "id": 3.10,
+    "type": "frq",
+    "question": "What happens if you try to divide by zero in Python?",
+    "keywords": ["error", "exception", "ZeroDivisionError"]
+  },
+  {
+    "id": 3.11,
+    "type": "frq",
+    "question": "How do you access a value in a dictionary by its key?",
+    "keywords": ["square brackets", "key", "lookup"]
+  },
+  {
+    "id": 3.12,
+    "type": "frq",
+    "question": "Explain what happens when you use list() on a string.",
+    "keywords": ["convert", "characters", "list", "iterable"]
+  },
+  {
+    "id": 3.13,
+    "type": "frq",
+    "question": "What is the difference between a parameter and an argument?",
+    "keywords": ["function", "definition", "call", "input"]
+  },
+  {
+    "id": 3.14,
+    "type": "frq",
+    "question": "Explain what happens when you slice a list using list[1:4].",
+    "keywords": ["slice", "index", "subset", "range"]
+  },
+  {
+    "id": 3.15,
+    "type": "frq",
+    "question": "What is a Python dictionary used for in data lookup tasks?",
+    "keywords": ["efficient", "key-value", "access", "mapping"]
+  }
+]
+

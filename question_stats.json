@@ -1,0 +1,162 @@
+{
+  "1.01": {
+    "seen": 4,
+    "correct": 3,
+    "incorrect": 1
+  },
+  "1.03": {
+    "seen": 4,
+    "correct": 0,
+    "incorrect": 4
+  },
+  "1.02": {
+    "seen": 4,
+    "correct": 2,
+    "incorrect": 2
+  },
+  "1.04": {
+    "seen": 4,
+    "correct": 2,
+    "incorrect": 2
+  },
+  "2.17": {
+    "seen": 2,
+    "correct": 0,
+    "incorrect": 2
+  },
+  "2.09": {
+    "seen": 1,
+    "correct": 0,
+    "incorrect": 1
+  },
+  "2.11": {
+    "seen": 1,
+    "correct": 0,
+    "incorrect": 1
+  },
+  "2.04": {
+    "seen": 1,
+    "correct": 1,
+    "incorrect": 0
+  },
+  "2.39": {
+    "seen": 1,
+    "correct": 0,
+    "incorrect": 1
+  },
+  "2.36": {
+    "seen": 1,
+    "correct": 0,
+    "incorrect": 1
+  },
+  "2.23": {
+    "seen": 1,
+    "correct": 0,
+    "incorrect": 1
+  },
+  "2.32": {
+    "seen": 3,
+    "correct": 2,
+    "incorrect": 1
+  },
+  "2.25": {
+    "seen": 1,
+    "correct": 0,
+    "incorrect": 1
+  },
+  "2.06": {
+    "seen": 2,
+    "correct": 1,
+    "incorrect": 1
+  },
+  "2.37": {
+    "seen": 2,
+    "correct": 0,
+    "incorrect": 2
+  },
+  "2.33": {
+    "seen": 2,
+    "correct": 0,
+    "incorrect": 2
+  },
+  "2.40": {
+    "seen": 1,
+    "correct": 0,
+    "incorrect": 1
+  },
+  "2.05": {
+    "seen": 1,
+    "correct": 1,
+    "incorrect": 0
+  },
+  "2.20": {
+    "seen": 3,
+    "correct": 0,
+    "incorrect": 3
+  },
+  "2.31": {
+    "seen": 1,
+    "correct": 0,
+    "incorrect": 1
+  },
+  "2.10": {
+    "seen": 2,
+    "correct": 0,
+    "incorrect": 2
+  },
+  "2.30": {
+    "seen": 1,
+    "correct": 0,
+    "incorrect": 1
+  },
+  "2.26": {
+    "seen": 2,
+    "correct": 0,
+    "incorrect": 2
+  },
+  "2.03": {
+    "seen": 1,
+    "correct": 0,
+    "incorrect": 1
+  },
+  "2.34": {
+    "seen": 1,
+    "correct": 0,
+    "incorrect": 1
+  },
+  "2.22": {
+    "seen": 2,
+    "correct": 0,
+    "incorrect": 2
+  },
+  "2.12": {
+    "seen": 2,
+    "correct": 1,
+    "incorrect": 1
+  },
+  "2.35": {
+    "seen": 1,
+    "correct": 0,
+    "incorrect": 1
+  },
+  "2.21": {
+    "seen": 1,
+    "correct": 0,
+    "incorrect": 1
+  },
+  "2.14": {
+    "seen": 1,
+    "correct": 0,
+    "incorrect": 1
+  },
+  "2.38": {
+    "seen": 1,
+    "correct": 0,
+    "incorrect": 1
+  },
+  "2.18": {
+    "seen": 1,
+    "correct": 0,
+    "incorrect": 1
+  }
+}

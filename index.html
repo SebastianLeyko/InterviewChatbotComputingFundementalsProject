@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>EECE Quiz Bot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      #keywords {
+        background-color: #eef6ff;
+        border: 1px solid #c9e1ff;
+        border-radius: 8px;
+        padding: 10px;
+        margin-bottom: 16px;
+        font-size: 15px;
+      }
+
+      body {
+        font-family: system-ui, Arial, sans-serif;
+        max-width: 700px;
+        margin: 40px auto;
+      }
+      #app {
+        border: 1px solid #ccc;
+        padding: 16px;
+        border-radius: 8px;
+      }
+      .row {
+        margin: 12px 0;
+      }
+      input, button, textarea {
+        padding: 8px;
+        font-size: 16px;
+      }
+
+      /* results container is now a div, not <pre> */
+      #results {
+        background: #f7f7f7;
+        padding: 10px;
+        border-radius: 6px;
+        margin-top: 16px;
+        font-size: 14px;
+      }
+
+      /* table styling for per-question breakdown */
+      .results-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 8px;
+      }
+      .results-table th,
+      .results-table td {
+        border: 1px solid #ddd;
+        padding: 4px 6px;
+        vertical-align: top;
+      }
+      .results-table th {
+        background: #eaeaea;
+        font-weight: 600;
+        text-align: left;
+      }
+      .results-row-correct {
+        background: #e6ffed;
+      }
+      .results-row-incorrect {
+        background: #ffecec;
+      }
+
+      #results details {
+        margin-top: 8px;
+      }
+      #results details pre {
+        white-space: pre-wrap;
+        font-size: 12px;
+      }
+
+      /* Auto-number each .row in #quiz */
+      #quiz { counter-reset: q; }
+      #quiz .row { counter-increment: q; }
+      #quiz .row > p:first-child::before {
+        content: counter(q) ". ";
+        font-weight: 600;
+      }
+
+      /* PDF Upload section styling */
+      #uploadSection {
+        margin-bottom: 20px;
+        padding: 12px;
+        border: 1px solid #dcdcdc;
+        border-radius: 8px;
+        background: #fafafa;
+      }
+
+      .stats {
+        font-size: 0.85rem;
+        color: #555;
+        margin-top: 4px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="app">
+      <h1>EECE Quiz Bot</h1>
+
+      <!-- PDF Upload Section -->
+      <div id="uploadSection">
+        <h3>Upload a PDF to Generate Quiz / Rubric</h3>
+
+        <label>
+          Type:
+          <select id="pdfType">
+            <option value="questions">Question Bank</option>
+            <option value="rubric">Rubric</option>
+          </select>
+        </label>
+        <br><br>
+
+        <input type="file" id="pdfFile" accept="application/pdf">
+        <button id="uploadBtn">Upload</button>
+
+        <pre id="result"></pre>
+      </div>
+
+      <!-- Keyword Bank -->
+      <div id="keywords">
+        <strong>Keyword Bank (FRQ questions):</strong>
+        <div id="keywordsContent">
+          Start a quiz to see the keyword bank.
+        </div>
+      </div>
+
+      <!-- Quiz UI -->
+      <button id="startBtn">Start Quiz</button>
+      <div id="quiz"></div>
+      <button id="submitBtn" disabled>Submit Answers</button>
+
+      <!-- Nicer results area -->
+      <div id="results"></div>
+    </div>
+
+    <!-- PDF upload logic -->
+    <script>
+      document.getElementById("uploadBtn").addEventListener("click", uploadPDF);
+
+      async function uploadPDF() {
+        const fileInput = document.getElementById("pdfFile");
+        const typeInput = document.getElementById("pdfType");
+        const file = fileInput.files[0];
+        const kind = typeInput.value;
+
+        if (!file) {
+          alert("Please select a PDF.");
+          return;
+        }
+
+        const formData = new FormData();
+        formData.append("file", file);
+        formData.append("kind", kind);
+
+        const response = await fetch("/upload", {
+          method: "POST",
+          body: formData,
+        });
+
+        const data = await response.json();
+        document.getElementById("result").textContent =
+          JSON.stringify(data, null, 2);
+      }
+    </script>
+
+    <!-- Main quiz logic -->
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+  </body>
+</html>

@@ -249,3 +249,4 @@ document.getElementById("submitBtn").onclick = async () => {
   const result = await res.json();
   renderResults(result);
 };
+

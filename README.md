@@ -94,7 +94,7 @@ Return the results to the webpage in results
 
 
 RESULTS
-<img src="images/screenshot1.png">
+<img src="Overleaf & Excel/1.png">
 This Screenshot above shows how the website looks when you first open it up, before inputting any pdfs or clicking start quiz. Our homepage includes a dropdown menu to select whether you are uploading a question bank or rubric, a file selector, an upload button, and the start quiz button. This shows that our system initializes properly and is able to load on peoples computers. 
 
  

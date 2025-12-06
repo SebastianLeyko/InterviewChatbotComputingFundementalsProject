@@ -97,43 +97,25 @@ RESULTS
 <img src="Overleaf & Excel/1.png">
 This Screenshot above shows how the website looks when you first open it up, before inputting any pdfs or clicking start quiz. Our homepage includes a dropdown menu to select whether you are uploading a question bank or rubric, a file selector, an upload button, and the start quiz button. This shows that our system initializes properly and is able to load on peoples computers. 
 
- 
+<img src="Overleaf & Excel/2.png">
+Here we see the upload confirmation that is shown after you upload a pdf. In this example, I uploaded a 50-question-long PDF, and as you can see, it shows the correct count of questions and tells us the status of the import. This confirms that our pdf to json converter is functioning through the webpage with no errors. 
 
- 
-
-Here we see the upload confirmation that is shown after you upload a pdf. In this example I uploaded a 50 question long pdf and as you can see it shows the correct count of questions and tells us the status of the import. This confirms that our pdf to json converter is functioning through the webpage with no errors. 
-
- 
-
- 
-
- 
-
+<img src="Overleaf & Excel/3.png">
 Above we have the upload confirmation for the rubric which just shows the status of the rubric. As said before this shows that our pdf to json converter is functioning as expected. 
 
- 
-
- 
-
+<img src="Overleaf & Excel/4.png">
 Here you can see the keyword bank that is generated from the free response questions in the quiz. Since this generates correctly and has the correct keywords this proves that our keyword logic is functioning and that the FRQ data is being processed correctly. 
 
- 
-
- 
-
+<img src="Overleaf & Excel/5.png">
 Above is a screenshot of what the webpage looks like after you hit start quiz. This page includes the 10 randomly generated questions, the class performance for those questions, the FRQ boxes, and the FRQ keywords. This shows that our random sampling of questions works, our class performance tracking is functioning, our page rendered correctly with all types of questions displayed, and the UI is updating accurately. 
 
- 
-
- 
-
+<img src="Overleaf & Excel/6.png">
 Here is a close up of a question, so you can see what the class performance tracking looks like. 
 
- 
-
+ <img src="Overleaf & Excel/7.png">
 Here is the full results table that you recieve after submitting your quiz. This table should hold information such as your score per question, total score, type of question, time taken total, time taken per question, feedback, keywords (hits and misses), and color coded for answers. As you can see all of this data is correctly displayed in the table which means that our grading module is functioning as expected. 
 
- 
+<img src="Overleaf & Excel/8.png">
 Above is the raw output that the backend code gives us in a json file. Here you can see the ID of the questions, keywords, points, time, and type of question. This confirms that our API is returning structured data that can easily be transformed into the nice looking table prior. It also means that all fields that are required for the UI rendering were present and the json file matches the table above. This shows that our front end and back end are working together to keep the quiz functioning. 
  
 
